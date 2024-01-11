@@ -20,6 +20,9 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
+        //Solo enviamos los valores que contengan los areglos en una 
+        //posicion especifica para mediante un proceso recursivo realizar 
+        //un proceso y presentarlo en pantalla
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
@@ -27,6 +30,8 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
+        //En cambio en el mismo almacenamos los valores de los arreglos 
+        //en variables.
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
@@ -34,6 +39,8 @@ public class Ejemplo06 {
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
         }
+        //Se realiza los mismo que lo anterior pero guardamos 
+        //el proceso en una variable
         
         
 
